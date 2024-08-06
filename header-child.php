@@ -26,29 +26,29 @@
     <div class="container">
       <div class="wrapper pc">
         <h1 class="logo">
-          <a href="">
+          <a href="<?php echo home_url( '/' ); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo.png" alt="logosuki">
           </a>
         </h1>
         <nav>
           <ul>
             <li>
-              <a href="#about">about</a>
+              <a href="<?php echo home_url( '/' ); ?>#about">about</a>
             </li>
             <li>
-              <a href="#works">works</a>
+              <a href="<?php echo home_url( '/' ); ?>#works">works</a>
             </li>
             <li>
-              <a href="#service">service</a>
+              <a href="<?php echo home_url( '/' ); ?>#service">service</a>
             </li>
             <li>
-              <a href="#media">media</a>
+              <a href="<?php echo home_url( '/' ); ?>#media">media</a>
             </li>
             <li>
-              <a href="#partner">partner</a>
+              <a href="<?php echo home_url( '/' ); ?>#partner">partner</a>
             </li>
             <li>
-              <a href="#contact">contact</a>
+              <a href="<?php echo home_url( '/' ); ?>#contact">contact</a>
             </li>
           </ul>
         </nav>
@@ -71,25 +71,25 @@
       </div>
       <ul>
         <li>
-          <a href="#"> <span></span> TOP <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="<?php echo home_url( '/' ); ?>"> <span></span> TOP <i class="fa-solid fa-chevron-right"></i></a>
         </li>
         <li>
-          <a href="#about"> <span></span> ABOUT <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="<?php echo home_url( '/' ); ?>#about"> <span></span> ABOUT <i class="fa-solid fa-chevron-right"></i></a>
         </li>
         <li>
-          <a href="#works"> <span></span> WORKS <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="<?php echo home_url( '/' ); ?>#works"> <span></span> WORKS <i class="fa-solid fa-chevron-right"></i></a>
         </li>
         <li>
-          <a href="#service"> <span></span> SERVICE <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="<?php echo home_url( '/' ); ?>#service"> <span></span> SERVICE <i class="fa-solid fa-chevron-right"></i></a>
         </li>
         <li>
-          <a href="#media"> <span></span> MEDIA <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="<?php echo home_url( '/' ); ?>#media"> <span></span> MEDIA <i class="fa-solid fa-chevron-right"></i></a>
         </li>
         <li>
-          <a href="#partner"> <span></span> PARTNER <i class="fa-solid fa-chevron-right"></i></a>
+          <a href="<?php echo home_url( '/' ); ?>#partner"> <span></span> PARTNER <i class="fa-solid fa-chevron-right"></i></a>
         </li>
         <li>
-          <a href="#contact" target="_blank" rel="noopener noreferrer">CONTACT</a>
+          <a href="<?php echo home_url( '/' ); ?>#contact" target="_blank" rel="noopener noreferrer">CONTACT</a>
         </li>
       </ul>
     </nav>

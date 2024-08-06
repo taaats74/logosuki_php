@@ -1,0 +1,129 @@
+.page-not-found {
+  .container {
+    padding: 100px 0 100px 0;
+
+    .wrapper {
+      width: 60%;
+      min-width: 900px;
+      margin: 0 auto;
+
+      h2 {
+        font-size: 8em;
+        text-align: center;
+        line-height: 1em;
+      }
+
+      h3 {
+        font-size: 3em;
+        text-align: center;
+        line-height: 1em;
+        margin-top: 10px;
+      }
+
+      .p1 {
+        text-align: center;
+        font-size: 1.4em;
+        font-weight: bold;
+        margin-top: 30px;
+      }
+
+      .box-wrapper {
+        text-align: center;
+
+        p {
+          text-align: center;
+
+          font-weight: bold;
+          font-size: 1.2em;
+          border-top: solid 1px black;
+          border-bottom: solid 1px black;
+          padding: 30px;
+          width: 60%;
+          margin: 0 auto;
+          margin-top: 50px;
+        }
+
+        ul {
+          padding: 30px;
+          background: #fcee21;
+          display: inline-block;
+          text-align: left;
+          list-style: none;
+          margin-top: 40px;
+
+          li {
+            font-weight: bold;
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .page-not-found {
+    .container {
+      padding: 100px 0 100px 0;
+
+      .wrapper {
+        width: 90%;
+        min-width: 0px;
+        margin: 0 auto;
+
+        h2 {
+
+          font-size: 4em;
+          text-align: center;
+          line-height: 1em;
+        }
+
+        h3 {
+          font-size: 2em;
+
+          text-align: center;
+          line-height: 1em;
+          margin-top: 10px;
+        }
+
+        .p1 {
+          text-align: center;
+          font-size: 1.2em;
+
+          font-weight: bold;
+          margin-top: 30px;
+        }
+
+        .box-wrapper {
+          text-align: center;
+
+          p {
+            text-align: center;
+            font-weight: bold;
+            font-size: 1em;
+            border-top: solid 1px black;
+            border-bottom: solid 1px black;
+            padding: 30px 10px 30px 10px;
+            width: 90%;
+            margin: 0 auto;
+            margin-top: 50px;
+          }
+
+          ul {
+            padding: 30px;
+            background: #fcee21;
+            display: inline-block;
+            text-align: left;
+            list-style: none;
+            margin-top: 40px;
+
+            li {
+              font-weight: bold;
+              font-size: .9em;
+            }
+          }
+        }
+      }
+    }
+  }
+}

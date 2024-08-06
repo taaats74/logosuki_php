@@ -1,4 +1,9 @@
 @charset "UTF-8";
+/*
+Theme Name: logosuki
+Author: will corp
+Version: 1.0 ver
+*/
 /* リセットCSS */
 html,
 body,
@@ -1100,8 +1105,8 @@ header .container .wrapper nav ul li:hover:before {
 }
 
 .page-contact .container .wrapper {
-  width: 83%;
-  max-width: 1200px;
+  width: 90%;
+  max-width: 800px;
   margin: 0 auto;
   margin-top: 80px;
   margin-bottom: 90px;
@@ -1120,15 +1125,14 @@ header .container .wrapper nav ul li:hover:before {
   font-weight: bold;
   margin-top: 2px;
 }
-.page-contact .container .wrapper form ul {
-  list-style: none;
-  width: 56%;
-  min-width: 800px;
+.page-contact .container .wrapper form {
   margin: 0 auto;
-  margin-top: 70px;
+  margin-top: 40px;
 }
 .page-contact .container .wrapper form ul li {
-  margin-top: 30px;
+  margin-top: 10px;
+}
+.page-contact .container .wrapper form ul li p {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1142,21 +1146,72 @@ header .container .wrapper nav ul li:hover:before {
       -ms-flex-align: center;
           align-items: center;
 }
-.page-contact .container .wrapper form ul li label {
+.page-contact .container .wrapper form ul li p label {
+  display: block;
+  width: 20%;
+  position: relative;
+}
+.page-contact .container .wrapper form ul li p label .required {
+  color: #b12929;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.page-contact .container .wrapper form ul li p > span {
+  display: block;
+  width: 75%;
+}
+.page-contact .container .wrapper form ul li p > span input {
+  width: 100%;
+  padding: 1em;
+}
+.page-contact .container .wrapper form ul li p > span textarea {
+  width: 100%;
+  padding: 1em;
+}
+.page-contact .container .wrapper form ul li:nth-child(2) label {
+  display: block;
   width: 25%;
-  margin-top: 0.8em;
+  position: relative;
 }
-.page-contact .container .wrapper form ul li label .required {
-  color: #FF5042;
-  margin-left: 3px;
+.page-contact .container .wrapper form ul li:nth-child(2) label .required {
+  color: #b12929;
+  position: absolute;
+  top: 0;
+  left: 65px;
 }
-.page-contact .container .wrapper form ul li input {
-  width: 75%;
-  padding: 1em;
+.page-contact .container .wrapper form ul li:nth-child(3) label {
+  display: block;
+  width: 25%;
+  position: relative;
 }
-.page-contact .container .wrapper form ul li textarea {
-  width: 75%;
-  padding: 1em;
+.page-contact .container .wrapper form ul li:nth-child(3) label .required {
+  color: #b12929;
+  position: absolute;
+  top: 0;
+  left: 65px;
+}
+.page-contact .container .wrapper form ul li:nth-child(4) label {
+  display: block;
+  width: 25%;
+  position: relative;
+}
+.page-contact .container .wrapper form ul li:nth-child(4) label .required {
+  color: #b12929;
+  position: absolute;
+  top: 0;
+  left: 115px;
+}
+.page-contact .container .wrapper form ul li:nth-child(5) label {
+  display: block;
+  width: 25%;
+  position: relative;
+}
+.page-contact .container .wrapper form ul li:nth-child(5) label .required {
+  color: #b12929;
+  position: absolute;
+  top: 0;
+  left: 130px;
 }
 .page-contact .container .wrapper .privacy-policy {
   text-align: center;
@@ -1169,7 +1224,7 @@ header .container .wrapper nav ul li:hover:before {
   font-size: 0.8em;
 }
 .page-contact .container .wrapper .checkbox .required {
-  color: #FF5042;
+  color: #b12929;
 }
 .page-contact .container .wrapper .contact-btn {
   text-align: center;
@@ -2253,7 +2308,7 @@ footer .container .copy {
   .about .container .wrapper .content-wrapper .content .text-wrapper .text {
     line-height: 1.5em;
     letter-spacing: 3px;
-    margin-top: 30px;
+    margin-top: 10px;
     font-size: 0.9em;
   }
   .about .container .wrapper .content-wrapper .content:nth-child(2) {
@@ -2346,7 +2401,7 @@ footer .container .copy {
     transition: 0.5s;
   }
   .works .container .wrapper .works-wrapper .works .text-wrapper {
-    margin-top: 20px;
+    margin-top: 10px;
   }
   .works .container .wrapper .works-wrapper .works .text-wrapper p {
     border-bottom: solid 2px transparent;
@@ -2360,7 +2415,7 @@ footer .container .copy {
     font-weight: bold;
   }
   .works .container .wrapper .works-wrapper .works .text-wrapper p.media {
-    margin-top: 10px;
+    margin-top: 0px;
     font-size: 0.9em;
   }
   .works .container .wrapper .works-wrapper .works + .works {
@@ -2488,7 +2543,7 @@ footer .container .copy {
     cursor: pointer;
   }
   .service .container {
-    background-image: url(img/service-bg.png);
+    background-image: url(img/service-bg-sp.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -2560,7 +2615,7 @@ footer .container .copy {
     margin-top: 30px;
   }
   .service .container .wrapper .service-wrapper .content img {
-    width: 80px;
+    width: 60px;
     margin: 0 auto;
     display: block;
   }
@@ -2572,22 +2627,22 @@ footer .container .copy {
     letter-spacing: 2px;
   }
   .service .container .wrapper .service-wrapper .content p {
-    margin-top: 20px;
+    margin-top: 10px;
     letter-spacing: 2px;
     line-height: 1.5em;
     font-size: 0.9em;
   }
   .service .container .wrapper .service-wrapper .content:nth-child(2) img {
-    width: 50px;
+    width: 40px;
   }
   .service .container .wrapper .service-wrapper .content:nth-child(3) img {
-    width: 72px;
+    width: 55px;
   }
   .service .container .wrapper .service-wrapper .content:nth-child(3) h3 {
     margin-top: 20px;
   }
   .service .container .wrapper .service-wrapper .content:nth-child(4) img {
-    width: 50px;
+    width: 43px;
   }
   .service .container .wrapper .service-wrapper .content:nth-child(4) h3 {
     margin-top: 13px;
@@ -2683,8 +2738,8 @@ footer .container .copy {
   }
   .contact .container {
     background: #fcee21;
-    padding: 70px 0;
-    margin-top: 90px;
+    padding: 35px 0;
+    margin-top: 40px;
   }
   .contact .container .wrapper {
     width: 90%;
@@ -2708,9 +2763,9 @@ footer .container .copy {
   }
   .contact .container .wrapper > p {
     margin-top: 40px;
-    line-height: 1.7em;
-    letter-spacing: 3px;
-    font-size: 0.9em;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    font-size: 1em;
   }
   .contact .container .wrapper .btn {
     text-align: center;
@@ -2744,133 +2799,8 @@ footer .container .copy {
     -webkit-transform: translateX(7px);
             transform: translateX(7px);
   }
-  .page-contact .container .wrapper {
-    width: 80%;
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-top: 80px;
-    margin-bottom: 90px;
-  }
-  .page-contact .container .wrapper .section-header {
-    font-size: 2.5em;
-    letter-spacing: 4px;
-    text-align: center;
-  }
-  .page-contact .container .wrapper .sub-title {
-    font-family: "toppan-bunkyu-gothic-pr6n", serif;
-    font-weight: 400;
-    font-style: normal;
-    text-align: center;
-  }
-  .page-contact .container .wrapper .border {
-    margin: 0 auto;
-    margin-top: 30px;
-  }
-  .page-contact .container .wrapper .content {
-    font-family: "toppan-bunkyu-gothic-pr6n", serif;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 2px;
-    margin-top: 40px;
-  }
-  .page-contact .container .wrapper form ul {
-    list-style: none;
-    width: 100%;
-    min-width: 1px;
-    margin: 0 auto;
-    margin-top: 70px;
-  }
-  .page-contact .container .wrapper form ul li {
-    margin-top: 30px;
-    display: -webkit-box;
-    display: -webkit-flex;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-    -webkit-flex-direction: column;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: justify;
-    -webkit-justify-content: space-between;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-  .page-contact .container .wrapper form ul li label {
-    width: 100%;
-  }
-  .page-contact .container .wrapper form ul li label .required {
-    color: #FF5042;
-    margin-left: 3px;
-  }
-  .page-contact .container .wrapper form ul li input {
-    width: 100%;
-    padding: 1em;
-    margin-top: 1em;
-  }
-  .page-contact .container .wrapper form ul li textarea {
-    width: 100%;
-    padding: 1em;
-    margin-top: 1em;
-  }
-  .page-contact .container .wrapper .privacy-policy {
-    text-align: center;
-    margin-top: 30px;
-    font-size: 0.8em;
-  }
-  .page-contact .container .wrapper .checkbox {
-    text-align: center;
-    margin-top: 20px;
-    font-size: 0.8em;
-  }
-  .page-contact .container .wrapper .contact-btn {
-    text-align: center;
-    margin-top: 40px;
-  }
-  .page-contact .container .wrapper .contact-btn button {
-    display: inline-block;
-    padding: 0.5em 4em;
-    text-decoration: none;
-    color: white;
-    background: black;
-    border: solid 1px black;
-    font-family: "toppan-bunkyu-gothic-pr6n", serif;
-    font-weight: 400;
-    font-style: normal;
-    position: relative;
-    z-index: 1;
-    -webkit-transition: 0.3s;
-    transition: 0.3s;
-  }
-  .page-contact .container .wrapper .contact-btn button:before {
-    content: "";
-    width: 100%;
-    height: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    background: white;
-    -webkit-transition: -webkit-transform ease 0.3s;
-    transition: -webkit-transform ease 0.3s;
-    transition: transform ease 0.3s;
-    transition: transform ease 0.3s, -webkit-transform ease 0.3s;
-    -webkit-transform-origin: 100% 50%;
-            transform-origin: 100% 50%;
-    -webkit-transform: scaleX(0);
-            transform: scaleX(0);
-  }
-  .page-contact .container .wrapper .contact-btn button:hover {
-    color: black;
-  }
-  .page-contact .container .wrapper .contact-btn button:hover::before {
-    -webkit-transform-origin: 0% 50%;
-            transform-origin: 0% 50%;
-    -webkit-transform: scaleX(1);
-            transform: scaleX(1);
-  }
   .media .container {
-    padding: 90px 0;
+    padding: 50px 0;
   }
   .media .container .wrapper {
     width: 90%;
@@ -2927,11 +2857,11 @@ footer .container .copy {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    margin-top: 25px;
+    margin-top: 10px;
   }
   .media .container .wrapper .article-wrapper .article {
     width: 100%;
-    margin-top: 25px;
+    margin-top: 12px;
   }
   .media .container .wrapper .article-wrapper .article img {
     -webkit-transition: 0.3s;
@@ -3043,8 +2973,11 @@ footer .container .copy {
     font-size: 0.9em;
   }
   .partner .container .wrapper .content-wrapper .text-wrapper .position-wrapper {
-    width: 70%;
-    display: block;
+    width: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
     -webkit-flex-wrap: wrap;
         -ms-flex-wrap: wrap;
             flex-wrap: wrap;
@@ -3056,7 +2989,7 @@ footer .container .copy {
     margin-top: 30px;
   }
   .partner .container .wrapper .content-wrapper .text-wrapper .position-wrapper p {
-    width: 100%;
+    width: 46%;
     text-align: center;
     background: black;
     color: white;
@@ -3107,8 +3040,148 @@ footer .container .copy {
   .partner .container .wrapper .content-wrapper img {
     width: 100%;
   }
+  .page-contact .container .wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 80px;
+    margin-bottom: 90px;
+  }
+  .page-contact .container .wrapper .sec-header {
+    text-align: center;
+  }
+  .page-contact .container .wrapper .sec-header h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7em;
+    letter-spacing: 3px;
+  }
+  .page-contact .container .wrapper .sec-header p {
+    font-weight: bold;
+    margin-top: 2px;
+  }
+  .page-contact .container .wrapper form {
+    margin: 0 auto;
+    margin-top: 30px;
+  }
+  .page-contact .container .wrapper form ul li {
+    margin-top: 20px;
+  }
+  .page-contact .container .wrapper form ul li p {
+    display: block;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .page-contact .container .wrapper form ul li p label {
+    display: block;
+    width: 100%;
+    position: relative;
+    line-height: 0;
+  }
+  .page-contact .container .wrapper form ul li p label .required {
+    color: #b12929;
+    position: absolute;
+    top: 0;
+    left: 50px;
+  }
+  .page-contact .container .wrapper form ul li p > span {
+    display: block;
+    width: 87%;
+  }
+  .page-contact .container .wrapper form ul li p > span input {
+    width: 100%;
+    padding: 1em;
+  }
+  .page-contact .container .wrapper form ul li p > span textarea {
+    width: 100%;
+    padding: 1em;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(2) label {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(2) label .required {
+    color: #b12929;
+    position: absolute;
+    top: 0;
+    left: 65px;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(3) label {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(3) label .required {
+    color: #b12929;
+    position: absolute;
+    top: 0;
+    left: 65px;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(4) label {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(4) label .required {
+    color: #b12929;
+    position: absolute;
+    top: 0;
+    left: 115px;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(5) label {
+    display: block;
+    width: 100%;
+    position: relative;
+  }
+  .page-contact .container .wrapper form ul li:nth-child(5) label .required {
+    color: #b12929;
+    position: absolute;
+    top: 0;
+    left: 130px;
+  }
+  .page-contact .container .wrapper .privacy-policy {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.8em;
+  }
+  .page-contact .container .wrapper .checkbox {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+  }
+  .page-contact .container .wrapper .checkbox .required {
+    color: #b12929;
+  }
+  .page-contact .container .wrapper .contact-btn {
+    text-align: center;
+    margin-top: 40px;
+  }
+  .page-contact .container .wrapper .contact-btn button {
+    display: inline-block;
+    padding: 0.9em 6em;
+    text-decoration: none;
+    color: white;
+    background: black;
+    border: solid 1px black;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+  }
+  .page-contact .container .wrapper .contact-btn button:hover {
+    background: white;
+    color: black;
+  }
   footer .container {
-    background-image: url(img/footer-bg.png);
+    background-image: url(img/footer-bg-sp.png);
     background-size: cover;
     background-position: center;
     padding-bottom: 15px;
@@ -3126,7 +3199,7 @@ footer .container .copy {
     -webkit-justify-content: space-between;
         -ms-flex-pack: justify;
             justify-content: space-between;
-    padding: 70px 0 30px 0;
+    padding: 35px 0 30px 0;
   }
   footer .container .wrapper .logo {
     width: 200px;
@@ -3168,6 +3241,9 @@ footer .container .copy {
     text-align: center;
   }
 }
+.policy .container {
+  margin-bottom: 100px;
+}
 .policy .container .wrapper {
   width: 90%;
   max-width: 850px;
@@ -3203,36 +3279,29 @@ footer .container .copy {
   line-height: 1.5em;
 }
 .policy .container .btn {
-  text-align: center;
-  margin: 70px 0;
+  width: 90%;
+  max-width: 300px;
+  background: black;
+  border: solid 1px black;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
 }
 .policy .container .btn a {
-  border-radius: 50px;
-  display: inline-block;
-  background: black;
   color: white;
-  padding: 15px 50px 15px 70px;
-  border: solid 1px black;
+  display: block;
+  padding: 20px;
+  text-align: center;
   -webkit-transition: 0.3s;
   transition: 0.3s;
 }
-.policy .container .btn a i {
+.policy .container .btn:hover {
   background: white;
+}
+.policy .container .btn:hover a {
   color: black;
-  padding: 10px 14px;
-  border-radius: 50%;
-  font-size: 1.3em;
-  margin-left: 30px;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-.policy .container .btn a:hover {
-  -webkit-box-shadow: 3px 3px 6px #827b0e;
-          box-shadow: 3px 3px 6px #827b0e;
-}
-.policy .container .btn a:hover i {
-  -webkit-transform: translateX(7px);
-          transform: translateX(7px);
 }
 
 @media screen and (max-width: 880px) {
@@ -3276,35 +3345,250 @@ footer .container .copy {
     margin-top: 10px;
   }
   .policy .container .btn {
-    text-align: center;
+    width: 90%;
+    max-width: 300px;
+    background: black;
+    border: solid 1px black;
+    border-radius: 40px;
+    margin: 0 auto;
     margin-top: 50px;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
   .policy .container .btn a {
-    border-radius: 50px;
-    display: inline-block;
-    background: black;
     color: white;
-    padding: 10px 20px 10px 30px;
-    border: solid 1px black;
+    display: block;
+    padding: 20px;
+    text-align: center;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  .policy .container .btn a i {
+  .policy .container .btn:hover {
     background: white;
+  }
+  .policy .container .btn:hover a {
     color: black;
-    padding: 10px 14px;
-    border-radius: 50%;
+  }
+}
+.thanks-page .container .wrapper {
+  width: 90%;
+  max-width: 800px;
+  margin: 100px auto 200px auto;
+}
+.thanks-page .container .wrapper .sec-header {
+  text-align: center;
+}
+.thanks-page .container .wrapper .sec-header h2 {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 2.7em;
+  letter-spacing: 3px;
+}
+.thanks-page .container .wrapper .sec-header p {
+  font-weight: bold;
+  margin-top: 2px;
+}
+.thanks-page .container .wrapper .text-wrapper {
+  margin-top: 50px;
+}
+.thanks-page .container .wrapper .text-wrapper h2 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.3em;
+  line-height: 1.1em;
+}
+.thanks-page .container .wrapper .text-wrapper p {
+  line-height: 1.5em;
+  margin-top: 20px;
+}
+.thanks-page .container .wrapper .btn {
+  width: 90%;
+  max-width: 300px;
+  background: black;
+  border: solid 1px black;
+  border-radius: 40px;
+  margin: 0 auto;
+  margin-top: 50px;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.thanks-page .container .wrapper .btn a {
+  color: white;
+  display: block;
+  padding: 20px;
+  text-align: center;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+.thanks-page .container .wrapper .btn:hover {
+  background: white;
+}
+.thanks-page .container .wrapper .btn:hover a {
+  color: black;
+}
+
+@media screen and (max-width: 880px) {
+  .thanks-page .container .wrapper {
+    width: 90%;
+    max-width: 800px;
+    margin: 50px auto 100px auto;
+  }
+  .thanks-page .container .wrapper .sec-header {
+    text-align: center;
+  }
+  .thanks-page .container .wrapper .sec-header h2 {
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.7em;
+    letter-spacing: 3px;
+  }
+  .thanks-page .container .wrapper .sec-header p {
+    font-weight: bold;
+    margin-top: 2px;
+  }
+  .thanks-page .container .wrapper .text-wrapper {
+    margin-top: 50px;
+  }
+  .thanks-page .container .wrapper .text-wrapper h2 {
+    text-align: center;
+    font-weight: bold;
     font-size: 1.3em;
-    margin-left: 10px;
+    line-height: 1.1em;
+  }
+  .thanks-page .container .wrapper .text-wrapper p {
+    line-height: 1.5em;
+    margin-top: 20px;
+  }
+  .thanks-page .container .wrapper .btn {
+    width: 90%;
+    max-width: 300px;
+    background: black;
+    border: solid 1px black;
+    border-radius: 40px;
+    margin: 0 auto;
+    margin-top: 50px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
   }
-  .policy .container .btn a:hover {
-    -webkit-box-shadow: 3px 3px 6px #827b0e;
-            box-shadow: 3px 3px 6px #827b0e;
+  .thanks-page .container .wrapper .btn a {
+    color: white;
+    display: block;
+    padding: 20px;
+    text-align: center;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
   }
-  .policy .container .btn a:hover i {
-    -webkit-transform: translateX(7px);
-            transform: translateX(7px);
+  .thanks-page .container .wrapper .btn:hover {
+    background: white;
+  }
+  .thanks-page .container .wrapper .btn:hover a {
+    color: black;
+  }
+}
+.page-not-found .container {
+  padding: 100px 0 100px 0;
+}
+.page-not-found .container .wrapper {
+  width: 60%;
+  min-width: 900px;
+  margin: 0 auto;
+}
+.page-not-found .container .wrapper h2 {
+  font-size: 8em;
+  text-align: center;
+  line-height: 1em;
+}
+.page-not-found .container .wrapper h3 {
+  font-size: 3em;
+  text-align: center;
+  line-height: 1em;
+  margin-top: 10px;
+}
+.page-not-found .container .wrapper .p1 {
+  text-align: center;
+  font-size: 1.4em;
+  font-weight: bold;
+  margin-top: 30px;
+}
+.page-not-found .container .wrapper .box-wrapper {
+  text-align: center;
+}
+.page-not-found .container .wrapper .box-wrapper p {
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.2em;
+  border-top: solid 1px black;
+  border-bottom: solid 1px black;
+  padding: 30px;
+  width: 60%;
+  margin: 0 auto;
+  margin-top: 50px;
+}
+.page-not-found .container .wrapper .box-wrapper ul {
+  padding: 30px;
+  background: #fcee21;
+  display: inline-block;
+  text-align: left;
+  list-style: none;
+  margin-top: 40px;
+}
+.page-not-found .container .wrapper .box-wrapper ul li {
+  font-weight: bold;
+  color: black;
+}
+
+@media screen and (max-width: 770px) {
+  .page-not-found .container {
+    padding: 100px 0 100px 0;
+  }
+  .page-not-found .container .wrapper {
+    width: 90%;
+    min-width: 0px;
+    margin: 0 auto;
+  }
+  .page-not-found .container .wrapper h2 {
+    font-size: 4em;
+    text-align: center;
+    line-height: 1em;
+  }
+  .page-not-found .container .wrapper h3 {
+    font-size: 2em;
+    text-align: center;
+    line-height: 1em;
+    margin-top: 10px;
+  }
+  .page-not-found .container .wrapper .p1 {
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 30px;
+  }
+  .page-not-found .container .wrapper .box-wrapper {
+    text-align: center;
+  }
+  .page-not-found .container .wrapper .box-wrapper p {
+    text-align: center;
+    font-weight: bold;
+    font-size: 1em;
+    border-top: solid 1px black;
+    border-bottom: solid 1px black;
+    padding: 30px 10px 30px 10px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
+  .page-not-found .container .wrapper .box-wrapper ul {
+    padding: 30px;
+    background: #fcee21;
+    display: inline-block;
+    text-align: left;
+    list-style: none;
+    margin-top: 40px;
+  }
+  .page-not-found .container .wrapper .box-wrapper ul li {
+    font-weight: bold;
+    font-size: 0.9em;
   }
 }/*# sourceMappingURL=style.css.map */

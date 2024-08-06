@@ -2,29 +2,29 @@
     <div class="container">
       <div class="wrapper">
         <div class="logo">
-          <a href="#">
+          <a href="<?php echo home_url( '/' ); ?>">
             <img src="<?php echo get_template_directory_uri(); ?>/img/logo-white.png" alt="logosuki">
           </a>
         </div>
         <nav>
           <ul>
             <li>
-              <a href="#about">about</a>
+              <a href="<?php echo home_url( '/' ); ?>#about">about</a>
             </li>
             <li>
-              <a href="#works">works</a>
+              <a href="<?php echo home_url( '/' ); ?>#works">works</a>
             </li>
             <li>
-              <a href="#service">service</a>
+              <a href="<?php echo home_url( '/' ); ?>#service">service</a>
             </li>
             <li>
-              <a href="#media">media</a>
+              <a href="<?php echo home_url( '/' ); ?>#media">media</a>
             </li>
             <li>
-              <a href="#partner">partner</a>
+              <a href="<?php echo home_url( '/' ); ?>#partner">partner</a>
             </li>
             <li>
-              <a href="#contact">contact</a>
+              <a href="<?php echo home_url( '/' ); ?>#contact">contact</a>
             </li>
           </ul>
         </nav>

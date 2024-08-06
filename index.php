@@ -24,7 +24,8 @@
         </div>
         <div class="content-wrapper">
           <div class="content animation-target to-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/about-img1.png" alt="ライティング画像">
+            <img class="pc" src="<?php echo get_template_directory_uri(); ?>/img/about-img1.png" alt="ライティング画像">
+            <img class="sp" src="<?php echo get_template_directory_uri(); ?>/img/about-img1-sp.png" alt="ライティング画像">
             <div class="text-wrapper">
               <h3>ユーザーやお客さまに寄り添ったライティングで
               理想のゴールを描く</h3>
@@ -32,7 +33,8 @@
             </div>
           </div>
           <div class="content animation-target to-up">
-            <img src="<?php echo get_template_directory_uri(); ?>/img/about-img2.png" alt="代表者画像">
+            <img class="pc" src="<?php echo get_template_directory_uri(); ?>/img/about-img2.png" alt="代表者画像">
+            <img class="sp" src="<?php echo get_template_directory_uri(); ?>/img/about-img2-sp.png" alt="代表者画像">
             <div class="text-wrapper">
               <h3>「言葉」の力で、お客さまをつなげる</h3>
               <p class="name">ロゴスキ 代表<br>結井 杏祐/Yui Kyosuke</p>
