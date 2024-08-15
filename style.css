@@ -464,10 +464,10 @@ header .container .wrapper nav ul li:hover:before {
   -webkit-align-items: center;
       -ms-flex-align: center;
           align-items: center;
-  -webkit-box-pack: justify;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-top: 40px;
 }
 .works .container .wrapper .works-wrapper .works {
@@ -1169,6 +1169,11 @@ header .container .wrapper nav ul li:hover:before {
   width: 100%;
   padding: 1em;
 }
+.page-contact .container .wrapper form ul li p > span .wpcf7-not-valid-tip {
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #c69522;
+}
 .page-contact .container .wrapper form ul li:nth-child(2) label {
   display: block;
   width: 25%;
@@ -1213,6 +1218,14 @@ header .container .wrapper nav ul li:hover:before {
   top: 0;
   left: 130px;
 }
+.page-contact .container .wrapper form .wpcf7-response-output {
+  margin: 2em 0.5em 1em;
+  padding: 0.2em 1em;
+  border: none;
+  border-color: #ffb900;
+  text-align: center;
+  color: #c69522;
+}
 .page-contact .container .wrapper .privacy-policy {
   text-align: center;
   margin-top: 30px;
@@ -1225,6 +1238,11 @@ header .container .wrapper nav ul li:hover:before {
 }
 .page-contact .container .wrapper .checkbox .required {
   color: #b12929;
+}
+.page-contact .container .wrapper .checkbox .wpcf7-not-valid-tip {
+  font-size: 0.8em;
+  margin-top: 5px;
+  color: #c69522;
 }
 .page-contact .container .wrapper .contact-btn {
   text-align: center;

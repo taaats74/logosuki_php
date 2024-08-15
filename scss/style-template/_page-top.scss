@@ -264,9 +264,10 @@ header{
         margin: 0 auto;
         display: flex;
         align-items: center;
-        // モーダルありの場合
-        justify-content: space-between;
-        // justify-content: center;
+        // works2つの場合↓
+        // justify-content: space-between;
+        // worksひとつの場合↓
+        justify-content: center;
         margin-top: 40px;
         .works{
           width: 48%;
@@ -293,7 +294,7 @@ header{
               }
             }
           }
-          // モーダルありの場合
+          // モーダルありの場合(ない場合はhoverをコメントアウトする)
           &:hover{
             cursor: pointer;
             .text-wrapper{
@@ -911,6 +912,11 @@ header{
                   width: 100%;
                   padding: 1em;
                 }
+                .wpcf7-not-valid-tip{
+                  font-size: .8em;
+                  margin-top: 5px;
+                  color: #c69522;
+                }
               }
             }
             &:nth-child(2){
@@ -967,6 +973,14 @@ header{
             }
           }
         }
+        .wpcf7-response-output{
+          margin: 2em 0.5em 1em;
+          padding: 0.2em 1em;
+          border: none;
+          border-color: #ffb900;
+          text-align: center;
+          color: #c69522;
+        }
       }
 
 
@@ -980,9 +994,13 @@ header{
         text-align: center;
         margin-top: 20px;
         font-size: .8em;
-
         .required {
           color: #b12929;
+        }
+        .wpcf7-not-valid-tip {
+          font-size: .8em;
+          margin-top: 5px;
+          color: #c69522;
         }
       }
 
