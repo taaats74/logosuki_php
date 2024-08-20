@@ -2,37 +2,37 @@
 
 {
   // モーダル
-  const worksBtn = document.querySelectorAll('.works-wrapper .works');
-  const closeBtn = document.querySelectorAll('.modal .close-btn');
-  const body = document.querySelector('body');
+  // const worksBtn = document.querySelectorAll('.works-wrapper .works');
+  // const closeBtn = document.querySelectorAll('.modal .close-btn');
+  // const body = document.querySelector('body');
 
-  console.log(worksBtn);
-  console.log(closeBtn);
-  console.log(body);
+  // console.log(worksBtn);
+  // console.log(closeBtn);
+  // console.log(body);
 
-  worksBtn.forEach(work => {
-    work.addEventListener('click', function() {
-      const modalId = this.getAttribute('data-modal');
-      document.getElementById(modalId).classList.add('show');
-      body.classList.add('modal-open');
-    });
-  });
+  // worksBtn.forEach(work => {
+  //   work.addEventListener('click', function() {
+  //     const modalId = this.getAttribute('data-modal');
+  //     document.getElementById(modalId).classList.add('show');
+  //     body.classList.add('modal-open');
+  //   });
+  // });
 
-  closeBtn.forEach(close => {
-    close.addEventListener('click', function() {
-      this.closest('.modal').classList.remove('show');
-      body.classList.remove('modal-open');
-    });
-  });
+  // closeBtn.forEach(close => {
+  //   close.addEventListener('click', function() {
+  //     this.closest('.modal').classList.remove('show');
+  //     body.classList.remove('modal-open');
+  //   });
+  // });
 
-  window.addEventListener('click', function(event) {
-    document.querySelectorAll('.modal').forEach(modal => {
-        if (event.target == modal) {
-          modal.classList.remove('show');
-          body.classList.remove('modal-open');
-        }
-    });
-  });
+  // window.addEventListener('click', function(event) {
+  //   document.querySelectorAll('.modal').forEach(modal => {
+  //       if (event.target == modal) {
+  //         modal.classList.remove('show');
+  //         body.classList.remove('modal-open');
+  //       }
+  //   });
+  // });
 }
 
 {

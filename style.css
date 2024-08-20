@@ -498,18 +498,6 @@ header .container .wrapper nav ul li:hover:before {
 .works .container .wrapper .works-wrapper .works .text-wrapper p.media {
   margin-top: 10px;
 }
-.works .container .wrapper .works-wrapper .works:hover {
-  cursor: pointer;
-}
-.works .container .wrapper .works-wrapper .works:hover .text-wrapper .corp {
-  border-bottom: solid 2px black;
-}
-.works .container .wrapper .works-wrapper .works:hover .text-wrapper .media {
-  border-bottom: solid 2px black;
-}
-.works .container .wrapper .works-wrapper .works:hover img {
-  scale: 1.07;
-}
 
 .modal {
   position: fixed;
@@ -1125,9 +1113,17 @@ header .container .wrapper nav ul li:hover:before {
   font-weight: bold;
   margin-top: 2px;
 }
+.page-contact .container .wrapper .text-wrapper {
+  margin-top: 20px;
+}
+.page-contact .container .wrapper .text-wrapper p {
+  text-align: center;
+  font-size: 0.8em;
+  color: #c69522;
+}
 .page-contact .container .wrapper form {
   margin: 0 auto;
-  margin-top: 40px;
+  margin-top: 30px;
 }
 .page-contact .container .wrapper form ul li {
   margin-top: 10px;

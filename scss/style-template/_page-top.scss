@@ -295,20 +295,20 @@ header{
             }
           }
           // モーダルありの場合(ない場合はhoverをコメントアウトする)
-          &:hover{
-            cursor: pointer;
-            .text-wrapper{
-              .corp{
-                border-bottom: solid 2px black;
-              }
-              .media{
-                border-bottom: solid 2px black;
-              }
-            }
-            img{
-              scale: 1.07;
-            }
-          }
+          // &:hover{
+          //   cursor: pointer;
+          //   .text-wrapper{
+          //     .corp{
+          //       border-bottom: solid 2px black;
+          //     }
+          //     .media{
+          //       border-bottom: solid 2px black;
+          //     }
+          //   }
+          //   img{
+          //     scale: 1.07;
+          //   }
+          // }
         }
       }
     }
@@ -880,9 +880,17 @@ header{
           margin-top: 2px;
         }
       }
+      .text-wrapper{
+        margin-top: 20px;
+        p{
+          text-align: center;
+          font-size: .8em;
+          color: #c69522;
+        }
+      }
       form{
         margin: 0 auto;
-        margin-top: 40px;
+        margin-top: 30px;
         ul{
           li{
             margin-top: 10px;

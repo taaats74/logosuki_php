@@ -18,6 +18,3 @@
   ?>
 
 <?php get_footer(); ?>
-
-
-<!-- <h1>sample code</h1> -->
